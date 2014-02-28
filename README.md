@@ -1,4 +1,21 @@
 
+builds
+======
+
+These commands can be run:
+
+ * python setup.py tinypy pygame
+  * it fails due to SDL.h
+
+ * python setup.py tinypy 
+ * python setup.py tinypy math
+  ** these do work
+
+ * python setup.py tinypy boot
+ * python setup.py tinypy math boot
+  ** these do work compiling a lot more
+   
+
 tags
 ====
 
