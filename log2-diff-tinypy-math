@@ -1,0 +1,26 @@
+$ python setup.py tinypy math
+
+# 105149 73506 7970
+cd /home/.../work/tinypy
+python py2bc.py tokenize.py tokenize.tpc -nopos 
+python py2bc.py parse.py parse.tpc -nopos 
+python py2bc.py encode.py encode.tpc -nopos 
+python py2bc.py py2bc.py py2bc.tpc -nopos 
+gcc -std=c89 -Wall -Wc++-compat -O3 mymain.c  -lm -o ../build/tinypy
+cd ..
+# OK
+
+$ diff -r arc-orig/ work/
+
+Only in work/build: tinypy
+Only in work/tinypy: bc.c
+Only in work/tinypy: boot.pyc
+Only in work/tinypy: encode.pyc
+Only in work/tinypy: encode.tpc
+Only in work/tinypy: mymain.c
+Only in work/tinypy: parse.pyc
+Only in work/tinypy: parse.tpc
+Only in work/tinypy: py2bc.tpc
+Only in work/tinypy: tokenize.pyc
+Only in work/tinypy: tokenize.tpc
+
