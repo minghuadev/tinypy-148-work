@@ -1,0 +1,3817 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
+ <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" >
+ 
+ <meta name="ROBOTS" content="NOARCHIVE">
+ 
+ <link rel="icon" type="image/vnd.microsoft.icon" href="https://ssl.gstatic.com/codesite/ph/images/phosting.ico">
+ 
+ 
+ <script type="text/javascript">
+ 
+ (function(){(function(){function c(a){this.t={};this.tick=function(a,b,c){b=void 0!=c?c:(new Date).getTime();this.t[a]=b;if(void 0==c)try{window.console.timeStamp("CSI/"+a)}catch(d){}};this.tick("start",null,a)}var a;window.performance&&(a=window.performance.timing);var b=a?new c(a.responseStart):new c;window.jstiming={Timer:c,load:b};a&&(b=a.navigationStart,a=a.responseStart,0<b&&a>=b&&(window.jstiming.srt=a-b));try{a=null,window.chrome&&window.chrome.csi&&(a=Math.floor(window.chrome.csi().pageT)),null==a&&
+window.gtbExternal&&(a=window.gtbExternal.pageT()),null==a&&window.external&&(a=window.external.pageT),a&&(window.jstiming.pt=a)}catch(d){}})();})();
+
+ 
+ 
+ 
+ 
+ var codesite_token = null;
+ 
+ 
+ var CS_env = {"profileUrl": null, "domainName": null, "loggedInUserEmail": null, "token": null, "projectHomeUrl": "/p/tinypy", "assetHostPath": "https://ssl.gstatic.com/codesite/ph", "relativeBaseUrl": "", "assetVersionPath": "https://ssl.gstatic.com/codesite/ph/3374407039186159233", "projectName": "tinypy"};
+ var _gaq = _gaq || [];
+ _gaq.push(
+ ['siteTracker._setAccount', 'UA-18071-1'],
+ ['siteTracker._trackPageview']);
+ 
+ (function() {
+ var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+ (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+ })();
+ 
+ </script>
+ 
+ 
+ <title>Wiki Pages - 
+ tinypy -
+ 
+ 
+ a minimalist implementation of python in 64k of code - Google Project Hosting
+ </title>
+ <link type="text/css" rel="stylesheet" href="https://ssl.gstatic.com/codesite/ph/3374407039186159233/css/core.css">
+ 
+ <link type="text/css" rel="stylesheet" href="https://ssl.gstatic.com/codesite/ph/3374407039186159233/css/ph_list.css" >
+ 
+ 
+ 
+ <link type="application/atom+xml" rel="alternate" href="/feeds/p/tinypy/svnchanges/basic?path=/wiki/">
+ 
+ 
+<!--[if IE]>
+ <link type="text/css" rel="stylesheet" href="https://ssl.gstatic.com/codesite/ph/3374407039186159233/css/d_ie.css" >
+<![endif]-->
+ <style type="text/css">
+ .menuIcon.off { background: no-repeat url(https://ssl.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 -42px }
+ .menuIcon.on { background: no-repeat url(https://ssl.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 -28px }
+ .menuIcon.down { background: no-repeat url(https://ssl.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 0; }
+ 
+ 
+ 
+ </style>
+</head>
+<body class="t6">
+<script type="text/javascript">
+ window.___gcfg = {lang: 'en'};
+ (function() 
+ {var po = document.createElement("script");
+ po.type = "text/javascript"; po.async = true;po.src = "https://apis.google.com/js/plusone.js";
+ var s = document.getElementsByTagName("script")[0];
+ s.parentNode.insertBefore(po, s);
+ })();
+</script>
+<div class="headbg">
+
+ <div id="gaia">
+ 
+
+ <span>
+ 
+ 
+ <a href="#" id="projects-dropdown" onclick="return false;"><u>My favorites</u> <small>&#9660;</small></a>
+ | <a href="https://www.google.com/accounts/ServiceLogin?service=code&amp;ltmpl=phosting&amp;continue=https%3A%2F%2Fcode.google.com%2Fp%2Ftinypy%2Fw%2Flist&amp;followup=https%3A%2F%2Fcode.google.com%2Fp%2Ftinypy%2Fw%2Flist" onclick="_CS_click('/gb/ph/signin');"><u>Sign in</u></a>
+ 
+ </span>
+
+ </div>
+
+ <div class="gbh" style="left: 0pt;"></div>
+ <div class="gbh" style="right: 0pt;"></div>
+ 
+ 
+ <div style="height: 1px"></div>
+<!--[if lte IE 7]>
+<div style="text-align:center;">
+Your version of Internet Explorer is not supported. Try a browser that
+contributes to open source, such as <a href="http://www.firefox.com">Firefox</a>,
+<a href="http://www.google.com/chrome">Google Chrome</a>, or
+<a href="http://code.google.com/chrome/chromeframe/">Google Chrome Frame</a>.
+</div>
+<![endif]-->
+
+
+
+ <table style="padding:0px; margin: 0px 0px 10px 0px; width:100%" cellpadding="0" cellspacing="0"
+ itemscope itemtype="http://schema.org/CreativeWork">
+ <tr style="height: 58px;">
+ 
+ 
+ 
+ <td id="plogo">
+ <link itemprop="url" href="/p/tinypy">
+ <a href="/p/tinypy/">
+ 
+ <img src="https://ssl.gstatic.com/codesite/ph/images/defaultlogo.png" alt="Logo" itemprop="image">
+ 
+ </a>
+ </td>
+ 
+ <td style="padding-left: 0.5em">
+ 
+ <div id="pname">
+ <a href="/p/tinypy/"><span itemprop="name">tinypy</span></a>
+ </div>
+ 
+ <div id="psum">
+ <a id="project_summary_link"
+ href="/p/tinypy/"><span itemprop="description">a minimalist implementation of python in 64k of code</span></a>
+ 
+ </div>
+ 
+ 
+ </td>
+ <td style="white-space:nowrap;text-align:right; vertical-align:bottom;">
+ 
+ <form action="/hosting/search">
+ <input size="30" name="q" value="" type="text">
+ 
+ <input type="submit" name="projectsearch" value="Search projects" >
+ </form>
+ 
+ </tr>
+ </table>
+
+</div>
+
+ 
+<div id="mt" class="gtb"> 
+ <a href="/p/tinypy/" class="tab ">Project&nbsp;Home</a>
+ 
+ 
+ 
+ 
+ <a href="/p/tinypy/downloads/list" class="tab ">Downloads</a>
+ 
+ 
+ 
+ 
+ 
+ <a href="/p/tinypy/wiki/Index?tm=6" class="tab active">Wiki</a>
+ 
+ 
+ 
+ 
+ 
+ <a href="/p/tinypy/issues/list"
+ class="tab ">Issues</a>
+ 
+ 
+ 
+ 
+ 
+ <a href="/p/tinypy/source/checkout"
+ class="tab ">Source</a>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <div class=gtbc></div>
+</div>
+<table cellspacing="0" cellpadding="0" width="100%" align="center" border="0" class="st">
+ <tr>
+ 
+ 
+ 
+ <td class="subt">
+ <div class="issueList">
+<div class="isf">
+ 
+ <span class="inIssueList"> 
+ <span>Search</span>
+ <form action="/p/tinypy/w/list" method="GET" style="display:inline">
+ <select id="can" name="can" >
+ <option disabled="disabled">Search within:</option>
+ 
+ <option value="1" >&nbsp;All wiki pages</option>
+ <option value="3" >&nbsp;Featured pages</option>
+ <option value="2" selected="selected">&nbsp;Current pages</option>
+ 
+ 
+ <option value="4" >&nbsp;Deprecated pages</option>
+ 
+ </select>
+ <span>for</span>
+ <span id="qq"><input type="text" size="38" id="searchq" name="q" value=""
+ autocomplete="off" ></span>
+ 
+ 
+ <span id="search_colspec"><input type="hidden" name="colspec" value="PageName Summary Changed ChangedBy" ></span>
+ <input type="submit" value="Search" >
+ </form>
+ </span>
+
+</div>
+</div>
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ <td align="right" valign="top" class="bevel-right"></td>
+ </tr>
+</table>
+
+
+<script type="text/javascript">
+ var cancelBubble = false;
+ function _go(url) { document.location = url; }
+</script>
+<div id="maincol"
+ 
+>
+
+ 
+
+
+
+
+
+<script type="text/javascript">
+function _showBelow(){}
+function _toggleStar(){}
+function _rowRolloverOn(){}
+function _rowRolloverOff(){}
+function _goIssue(){}
+function _goFile(){}
+</script>
+
+<script type="text/javascript">
+ function starClick(el, pagename) {
+ _CS_toggleStar(
+ el,
+ {'scope': 'wiki',
+ 'user': '_CURRENT_USER',
+ 'item': 'tinypy:' + pagename
+ },
+ false);
+ }
+</script>
+<div id="colcontrol">
+ <div class="list">
+ 
+ 
+ <div class="pagination">
+ 
+ 1 - 43
+ 
+ of 43
+ 
+ 
+ </div>
+ 
+
+
+ 
+ &nbsp;&nbsp;
+ 
+ <form id="colspecform" action="list" method="GET" autocomplete="off" style="display:inline">
+ <input type="hidden" name="can" value="2" >
+ <input type="hidden" name="q" value="" >
+ <input type="hidden" name="sort" value="" >
+ <input type="hidden" id="groupbyspec" name="groupby" value="" >
+ <span id="columnspec" style="display:none;"><span style="font-size: 95%">Columns: </span><span id="colspec_field"><input type="text" size="60" style="font-size: 80%" name="colspec"
+ value="PageName Summary Changed ChangedBy" /></span>&nbsp; <input type="submit" style="font-size: 80%" name="nobtn" value="Update" >&nbsp;
+ 
+ </span>
+ </form>
+ </div>
+ <table cellspacing="0" cellpadding="2" border="0" class="results" id="resultstable" width="100%">
+ <thead>
+ <tr id="headingrow"><th style="border-left: 0"> &nbsp; </th>
+ 
+ 
+ <th class="col_0" nowrap="nowrap" onclick="return _showBelow('pop_0',this)"><a href="#" style="text-decoration: none">PageName <span class="indicator">&#9660;</span></a></th>
+ 
+ 
+ 
+ 
+ <th class="col_1" nowrap="nowrap" id="summaryheading" onclick="return _showBelow('pop_1',this)" width="100%"><a href="#" style="text-decoration: none">Summary + Labels <span class="indicator">&#9660;</span></a></th>
+ 
+ 
+ 
+ 
+ 
+ <th class="col_2" nowrap="nowrap" onclick="return _showBelow('pop_2',this)"><a href="#" style="text-decoration: none">Changed <span class="indicator">&#9660;</span></a></th>
+ 
+ 
+ 
+ 
+ 
+ <th class="col_3" nowrap="nowrap" onclick="return _showBelow('pop_3',this)"><a href="#" style="text-decoration: none">ChangedBy <span class="indicator">&#9660;</span></a></th>
+ 
+ 
+ 
+ <th onclick="return _showBelow('pop__dot',this)" style="width:3ex"><a href="#columnprefs" class="dotdotdot">...</a></th>
+ </tr>
+ </thead>
+ 
+ 
+ 
+
+
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" class="ifOpened">
+ <td class="vt" nowrap="nowrap" style="padding:2px 2px 0 2px">
+ 
+ </td>
+ 
+ 
+ 
+  
+ <td class="vt id col_0"><a href="/p/tinypy/wiki/Builtins">
+ 
+ Builtins
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_1" width="100%"
+ onclick="if (!cancelBubble) _go('/p/tinypy/wiki/Builtins')"
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/Builtins">
+ 
+ 
+ 
+
+</a>
+ 
+
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_2" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/Builtins')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/Builtins" style="white-space:nowrap">
+ 
+ Feb 2010
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_3" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/Builtins')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/Builtins">
+ 
+ allef...@gmail.com
+ 
+
+</a></td>
+ 
+ 
+ 
+ <td>&nbsp;</td>
+ </tr>
+ 
+ 
+
+
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" class="ifOpened">
+ <td class="vt" nowrap="nowrap" style="padding:2px 2px 0 2px">
+ 
+ </td>
+ 
+ 
+ 
+  
+ <td class="vt id col_0"><a href="/p/tinypy/wiki/Dict">
+ 
+ Dict
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_1" width="100%"
+ onclick="if (!cancelBubble) _go('/p/tinypy/wiki/Dict')"
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/Dict">
+ 
+ 
+ 
+
+</a>
+ 
+
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_2" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/Dict')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/Dict" style="white-space:nowrap">
+ 
+ Feb 2010
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_3" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/Dict')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/Dict">
+ 
+ allef...@gmail.com
+ 
+
+</a></td>
+ 
+ 
+ 
+ <td>&nbsp;</td>
+ </tr>
+ 
+ 
+
+
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" class="ifOpened">
+ <td class="vt" nowrap="nowrap" style="padding:2px 2px 0 2px">
+ 
+ </td>
+ 
+ 
+ 
+  
+ <td class="vt id col_0"><a href="/p/tinypy/wiki/General">
+ 
+ General
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_1" width="100%"
+ onclick="if (!cancelBubble) _go('/p/tinypy/wiki/General')"
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/General">
+ 
+ 
+ 
+
+</a>
+ 
+
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_2" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/General')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/General" style="white-space:nowrap">
+ 
+ Feb 2010
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_3" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/General')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/General">
+ 
+ allef...@gmail.com
+ 
+
+</a></td>
+ 
+ 
+ 
+ <td>&nbsp;</td>
+ </tr>
+ 
+ 
+
+
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" class="ifOpened">
+ <td class="vt" nowrap="nowrap" style="padding:2px 2px 0 2px">
+ 
+ </td>
+ 
+ 
+ 
+  
+ <td class="vt id col_0"><a href="/p/tinypy/wiki/Index">
+ 
+ Index
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_1" width="100%"
+ onclick="if (!cancelBubble) _go('/p/tinypy/wiki/Index')"
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/Index">
+ 
+ 
+ 
+
+</a>
+ 
+
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_2" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/Index')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/Index" style="white-space:nowrap">
+ 
+ Feb 2010
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_3" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/Index')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/Index">
+ 
+ allef...@gmail.com
+ 
+
+</a></td>
+ 
+ 
+ 
+ <td>&nbsp;</td>
+ </tr>
+ 
+ 
+
+
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" class="ifOpened">
+ <td class="vt" nowrap="nowrap" style="padding:2px 2px 0 2px">
+ 
+ </td>
+ 
+ 
+ 
+  
+ <td class="vt id col_0"><a href="/p/tinypy/wiki/Miscellaneous">
+ 
+ Miscellaneous
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_1" width="100%"
+ onclick="if (!cancelBubble) _go('/p/tinypy/wiki/Miscellaneous')"
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/Miscellaneous">
+ 
+ 
+ 
+
+</a>
+ 
+
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_2" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/Miscellaneous')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/Miscellaneous" style="white-space:nowrap">
+ 
+ Feb 2010
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_3" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/Miscellaneous')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/Miscellaneous">
+ 
+ allef...@gmail.com
+ 
+
+</a></td>
+ 
+ 
+ 
+ <td>&nbsp;</td>
+ </tr>
+ 
+ 
+
+
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" class="ifOpened">
+ <td class="vt" nowrap="nowrap" style="padding:2px 2px 0 2px">
+ 
+ </td>
+ 
+ 
+ 
+  
+ <td class="vt id col_0"><a href="/p/tinypy/wiki/Operations">
+ 
+ Operations
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_1" width="100%"
+ onclick="if (!cancelBubble) _go('/p/tinypy/wiki/Operations')"
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/Operations">
+ 
+ 
+ 
+
+</a>
+ 
+
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_2" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/Operations')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/Operations" style="white-space:nowrap">
+ 
+ Feb 2010
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_3" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/Operations')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/Operations">
+ 
+ allef...@gmail.com
+ 
+
+</a></td>
+ 
+ 
+ 
+ <td>&nbsp;</td>
+ </tr>
+ 
+ 
+
+
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" class="ifOpened">
+ <td class="vt" nowrap="nowrap" style="padding:2px 2px 0 2px">
+ 
+ </td>
+ 
+ 
+ 
+  
+ <td class="vt id col_0"><a href="/p/tinypy/wiki/String">
+ 
+ String
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_1" width="100%"
+ onclick="if (!cancelBubble) _go('/p/tinypy/wiki/String')"
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/String">
+ 
+ 
+ 
+
+</a>
+ 
+
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_2" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/String')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/String" style="white-space:nowrap">
+ 
+ Feb 2010
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_3" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/String')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/String">
+ 
+ allef...@gmail.com
+ 
+
+</a></td>
+ 
+ 
+ 
+ <td>&nbsp;</td>
+ </tr>
+ 
+ 
+
+
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" class="ifOpened">
+ <td class="vt" nowrap="nowrap" style="padding:2px 2px 0 2px">
+ 
+ </td>
+ 
+ 
+ 
+  
+ <td class="vt id col_0"><a href="/p/tinypy/wiki/TP_LOOP">
+ 
+ TP_LOOP
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_1" width="100%"
+ onclick="if (!cancelBubble) _go('/p/tinypy/wiki/TP_LOOP')"
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/TP_LOOP">
+ 
+ 
+ 
+
+</a>
+ 
+
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_2" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/TP_LOOP')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/TP_LOOP" style="white-space:nowrap">
+ 
+ Feb 2010
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_3" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/TP_LOOP')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/TP_LOOP">
+ 
+ allef...@gmail.com
+ 
+
+</a></td>
+ 
+ 
+ 
+ <td>&nbsp;</td>
+ </tr>
+ 
+ 
+
+
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" class="ifOpened">
+ <td class="vt" nowrap="nowrap" style="padding:2px 2px 0 2px">
+ 
+ </td>
+ 
+ 
+ 
+  
+ <td class="vt id col_0"><a href="/p/tinypy/wiki/VM">
+ 
+ VM
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_1" width="100%"
+ onclick="if (!cancelBubble) _go('/p/tinypy/wiki/VM')"
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/VM">
+ 
+ 
+ 
+
+</a>
+ 
+
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_2" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/VM')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/VM" style="white-space:nowrap">
+ 
+ Feb 2010
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_3" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/VM')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/VM">
+ 
+ allef...@gmail.com
+ 
+
+</a></td>
+ 
+ 
+ 
+ <td>&nbsp;</td>
+ </tr>
+ 
+ 
+
+
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" class="ifOpened">
+ <td class="vt" nowrap="nowrap" style="padding:2px 2px 0 2px">
+ 
+ </td>
+ 
+ 
+ 
+  
+ <td class="vt id col_0"><a href="/p/tinypy/wiki/index">
+ 
+ index
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_1" width="100%"
+ onclick="if (!cancelBubble) _go('/p/tinypy/wiki/index')"
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/index">
+ 
+ One-sentence summary of this page.
+ 
+
+</a>
+ 
+
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_2" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/index')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/index" style="white-space:nowrap">
+ 
+ Feb 2010
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_3" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/index')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/index">
+ 
+ allef...@gmail.com
+ 
+
+</a></td>
+ 
+ 
+ 
+ <td>&nbsp;</td>
+ </tr>
+ 
+ 
+
+
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" class="ifOpened">
+ <td class="vt" nowrap="nowrap" style="padding:2px 2px 0 2px">
+ 
+ </td>
+ 
+ 
+ 
+  
+ <td class="vt id col_0"><a href="/p/tinypy/wiki/tp_bool">
+ 
+ tp_bool
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_1" width="100%"
+ onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_bool')"
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_bool">
+ 
+ 
+ 
+
+</a>
+ 
+
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_2" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_bool')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_bool" style="white-space:nowrap">
+ 
+ Feb 2010
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_3" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_bool')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_bool">
+ 
+ allef...@gmail.com
+ 
+
+</a></td>
+ 
+ 
+ 
+ <td>&nbsp;</td>
+ </tr>
+ 
+ 
+
+
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" class="ifOpened">
+ <td class="vt" nowrap="nowrap" style="padding:2px 2px 0 2px">
+ 
+ </td>
+ 
+ 
+ 
+  
+ <td class="vt id col_0"><a href="/p/tinypy/wiki/tp_call">
+ 
+ tp_call
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_1" width="100%"
+ onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_call')"
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_call">
+ 
+ 
+ 
+
+</a>
+ 
+
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_2" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_call')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_call" style="white-space:nowrap">
+ 
+ Feb 2010
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_3" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_call')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_call">
+ 
+ allef...@gmail.com
+ 
+
+</a></td>
+ 
+ 
+ 
+ <td>&nbsp;</td>
+ </tr>
+ 
+ 
+
+
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" class="ifOpened">
+ <td class="vt" nowrap="nowrap" style="padding:2px 2px 0 2px">
+ 
+ </td>
+ 
+ 
+ 
+  
+ <td class="vt id col_0"><a href="/p/tinypy/wiki/tp_class">
+ 
+ tp_class
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_1" width="100%"
+ onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_class')"
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_class">
+ 
+ 
+ 
+
+</a>
+ 
+
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_2" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_class')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_class" style="white-space:nowrap">
+ 
+ Feb 2010
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_3" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_class')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_class">
+ 
+ allef...@gmail.com
+ 
+
+</a></td>
+ 
+ 
+ 
+ <td>&nbsp;</td>
+ </tr>
+ 
+ 
+
+
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" class="ifOpened">
+ <td class="vt" nowrap="nowrap" style="padding:2px 2px 0 2px">
+ 
+ </td>
+ 
+ 
+ 
+  
+ <td class="vt id col_0"><a href="/p/tinypy/wiki/tp_compile">
+ 
+ tp_compile
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_1" width="100%"
+ onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_compile')"
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_compile">
+ 
+ 
+ 
+
+</a>
+ 
+
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_2" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_compile')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_compile" style="white-space:nowrap">
+ 
+ Feb 2010
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_3" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_compile')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_compile">
+ 
+ allef...@gmail.com
+ 
+
+</a></td>
+ 
+ 
+ 
+ <td>&nbsp;</td>
+ </tr>
+ 
+ 
+
+
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" class="ifOpened">
+ <td class="vt" nowrap="nowrap" style="padding:2px 2px 0 2px">
+ 
+ </td>
+ 
+ 
+ 
+  
+ <td class="vt id col_0"><a href="/p/tinypy/wiki/tp_data">
+ 
+ tp_data
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_1" width="100%"
+ onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_data')"
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_data">
+ 
+ 
+ 
+
+</a>
+ 
+
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_2" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_data')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_data" style="white-space:nowrap">
+ 
+ Feb 2010
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_3" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_data')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_data">
+ 
+ allef...@gmail.com
+ 
+
+</a></td>
+ 
+ 
+ 
+ <td>&nbsp;</td>
+ </tr>
+ 
+ 
+
+
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" class="ifOpened">
+ <td class="vt" nowrap="nowrap" style="padding:2px 2px 0 2px">
+ 
+ </td>
+ 
+ 
+ 
+  
+ <td class="vt id col_0"><a href="/p/tinypy/wiki/tp_deinit">
+ 
+ tp_deinit
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_1" width="100%"
+ onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_deinit')"
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_deinit">
+ 
+ 
+ 
+
+</a>
+ 
+
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_2" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_deinit')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_deinit" style="white-space:nowrap">
+ 
+ Feb 2010
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_3" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_deinit')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_deinit">
+ 
+ allef...@gmail.com
+ 
+
+</a></td>
+ 
+ 
+ 
+ <td>&nbsp;</td>
+ </tr>
+ 
+ 
+
+
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" class="ifOpened">
+ <td class="vt" nowrap="nowrap" style="padding:2px 2px 0 2px">
+ 
+ </td>
+ 
+ 
+ 
+  
+ <td class="vt id col_0"><a href="/p/tinypy/wiki/tp_del">
+ 
+ tp_del
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_1" width="100%"
+ onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_del')"
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_del">
+ 
+ 
+ 
+
+</a>
+ 
+
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_2" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_del')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_del" style="white-space:nowrap">
+ 
+ Feb 2010
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_3" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_del')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_del">
+ 
+ allef...@gmail.com
+ 
+
+</a></td>
+ 
+ 
+ 
+ <td>&nbsp;</td>
+ </tr>
+ 
+ 
+
+
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" class="ifOpened">
+ <td class="vt" nowrap="nowrap" style="padding:2px 2px 0 2px">
+ 
+ </td>
+ 
+ 
+ 
+  
+ <td class="vt id col_0"><a href="/p/tinypy/wiki/tp_dict">
+ 
+ tp_dict
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_1" width="100%"
+ onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_dict')"
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_dict">
+ 
+ 
+ 
+
+</a>
+ 
+
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_2" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_dict')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_dict" style="white-space:nowrap">
+ 
+ Feb 2010
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_3" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_dict')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_dict">
+ 
+ allef...@gmail.com
+ 
+
+</a></td>
+ 
+ 
+ 
+ <td>&nbsp;</td>
+ </tr>
+ 
+ 
+
+
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" class="ifOpened">
+ <td class="vt" nowrap="nowrap" style="padding:2px 2px 0 2px">
+ 
+ </td>
+ 
+ 
+ 
+  
+ <td class="vt id col_0"><a href="/p/tinypy/wiki/tp_exec">
+ 
+ tp_exec
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_1" width="100%"
+ onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_exec')"
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_exec">
+ 
+ 
+ 
+
+</a>
+ 
+
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_2" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_exec')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_exec" style="white-space:nowrap">
+ 
+ Feb 2010
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_3" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_exec')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_exec">
+ 
+ allef...@gmail.com
+ 
+
+</a></td>
+ 
+ 
+ 
+ <td>&nbsp;</td>
+ </tr>
+ 
+ 
+
+
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" class="ifOpened">
+ <td class="vt" nowrap="nowrap" style="padding:2px 2px 0 2px">
+ 
+ </td>
+ 
+ 
+ 
+  
+ <td class="vt id col_0"><a href="/p/tinypy/wiki/tp_fnc">
+ 
+ tp_fnc
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_1" width="100%"
+ onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_fnc')"
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_fnc">
+ 
+ 
+ 
+
+</a>
+ 
+
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_2" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_fnc')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_fnc" style="white-space:nowrap">
+ 
+ Feb 2010
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_3" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_fnc')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_fnc">
+ 
+ allef...@gmail.com
+ 
+
+</a></td>
+ 
+ 
+ 
+ <td>&nbsp;</td>
+ </tr>
+ 
+ 
+
+
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" class="ifOpened">
+ <td class="vt" nowrap="nowrap" style="padding:2px 2px 0 2px">
+ 
+ </td>
+ 
+ 
+ 
+  
+ <td class="vt id col_0"><a href="/p/tinypy/wiki/tp_get">
+ 
+ tp_get
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_1" width="100%"
+ onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_get')"
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_get">
+ 
+ 
+ 
+
+</a>
+ 
+
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_2" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_get')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_get" style="white-space:nowrap">
+ 
+ Feb 2010
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_3" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_get')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_get">
+ 
+ allef...@gmail.com
+ 
+
+</a></td>
+ 
+ 
+ 
+ <td>&nbsp;</td>
+ </tr>
+ 
+ 
+
+
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" class="ifOpened">
+ <td class="vt" nowrap="nowrap" style="padding:2px 2px 0 2px">
+ 
+ </td>
+ 
+ 
+ 
+  
+ <td class="vt id col_0"><a href="/p/tinypy/wiki/tp_getraw">
+ 
+ tp_getraw
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_1" width="100%"
+ onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_getraw')"
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_getraw">
+ 
+ 
+ 
+
+</a>
+ 
+
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_2" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_getraw')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_getraw" style="white-space:nowrap">
+ 
+ Feb 2010
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_3" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_getraw')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_getraw">
+ 
+ allef...@gmail.com
+ 
+
+</a></td>
+ 
+ 
+ 
+ <td>&nbsp;</td>
+ </tr>
+ 
+ 
+
+
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" class="ifOpened">
+ <td class="vt" nowrap="nowrap" style="padding:2px 2px 0 2px">
+ 
+ </td>
+ 
+ 
+ 
+  
+ <td class="vt id col_0"><a href="/p/tinypy/wiki/tp_has">
+ 
+ tp_has
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_1" width="100%"
+ onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_has')"
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_has">
+ 
+ 
+ 
+
+</a>
+ 
+
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_2" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_has')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_has" style="white-space:nowrap">
+ 
+ Feb 2010
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_3" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_has')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_has">
+ 
+ allef...@gmail.com
+ 
+
+</a></td>
+ 
+ 
+ 
+ <td>&nbsp;</td>
+ </tr>
+ 
+ 
+
+
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" class="ifOpened">
+ <td class="vt" nowrap="nowrap" style="padding:2px 2px 0 2px">
+ 
+ </td>
+ 
+ 
+ 
+  
+ <td class="vt id col_0"><a href="/p/tinypy/wiki/tp_iget">
+ 
+ tp_iget
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_1" width="100%"
+ onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_iget')"
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_iget">
+ 
+ 
+ 
+
+</a>
+ 
+
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_2" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_iget')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_iget" style="white-space:nowrap">
+ 
+ Feb 2010
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_3" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_iget')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_iget">
+ 
+ allef...@gmail.com
+ 
+
+</a></td>
+ 
+ 
+ 
+ <td>&nbsp;</td>
+ </tr>
+ 
+ 
+
+
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" class="ifOpened">
+ <td class="vt" nowrap="nowrap" style="padding:2px 2px 0 2px">
+ 
+ </td>
+ 
+ 
+ 
+  
+ <td class="vt id col_0"><a href="/p/tinypy/wiki/tp_import">
+ 
+ tp_import
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_1" width="100%"
+ onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_import')"
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_import">
+ 
+ 
+ 
+
+</a>
+ 
+
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_2" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_import')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_import" style="white-space:nowrap">
+ 
+ Feb 2010
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_3" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_import')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_import">
+ 
+ allef...@gmail.com
+ 
+
+</a></td>
+ 
+ 
+ 
+ <td>&nbsp;</td>
+ </tr>
+ 
+ 
+
+
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" class="ifOpened">
+ <td class="vt" nowrap="nowrap" style="padding:2px 2px 0 2px">
+ 
+ </td>
+ 
+ 
+ 
+  
+ <td class="vt id col_0"><a href="/p/tinypy/wiki/tp_init">
+ 
+ tp_init
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_1" width="100%"
+ onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_init')"
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_init">
+ 
+ 
+ 
+
+</a>
+ 
+
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_2" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_init')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_init" style="white-space:nowrap">
+ 
+ Feb 2010
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_3" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_init')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_init">
+ 
+ allef...@gmail.com
+ 
+
+</a></td>
+ 
+ 
+ 
+ <td>&nbsp;</td>
+ </tr>
+ 
+ 
+
+
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" class="ifOpened">
+ <td class="vt" nowrap="nowrap" style="padding:2px 2px 0 2px">
+ 
+ </td>
+ 
+ 
+ 
+  
+ <td class="vt id col_0"><a href="/p/tinypy/wiki/tp_iter">
+ 
+ tp_iter
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_1" width="100%"
+ onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_iter')"
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_iter">
+ 
+ 
+ 
+
+</a>
+ 
+
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_2" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_iter')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_iter" style="white-space:nowrap">
+ 
+ Feb 2010
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_3" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_iter')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_iter">
+ 
+ allef...@gmail.com
+ 
+
+</a></td>
+ 
+ 
+ 
+ <td>&nbsp;</td>
+ </tr>
+ 
+ 
+
+
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" class="ifOpened">
+ <td class="vt" nowrap="nowrap" style="padding:2px 2px 0 2px">
+ 
+ </td>
+ 
+ 
+ 
+  
+ <td class="vt id col_0"><a href="/p/tinypy/wiki/tp_len">
+ 
+ tp_len
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_1" width="100%"
+ onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_len')"
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_len">
+ 
+ 
+ 
+
+</a>
+ 
+
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_2" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_len')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_len" style="white-space:nowrap">
+ 
+ Feb 2010
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_3" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_len')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_len">
+ 
+ allef...@gmail.com
+ 
+
+</a></td>
+ 
+ 
+ 
+ <td>&nbsp;</td>
+ </tr>
+ 
+ 
+
+
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" class="ifOpened">
+ <td class="vt" nowrap="nowrap" style="padding:2px 2px 0 2px">
+ 
+ </td>
+ 
+ 
+ 
+  
+ <td class="vt id col_0"><a href="/p/tinypy/wiki/tp_number">
+ 
+ tp_number
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_1" width="100%"
+ onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_number')"
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_number">
+ 
+ 
+ 
+
+</a>
+ 
+
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_2" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_number')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_number" style="white-space:nowrap">
+ 
+ Feb 2010
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_3" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_number')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_number">
+ 
+ allef...@gmail.com
+ 
+
+</a></td>
+ 
+ 
+ 
+ <td>&nbsp;</td>
+ </tr>
+ 
+ 
+
+
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" class="ifOpened">
+ <td class="vt" nowrap="nowrap" style="padding:2px 2px 0 2px">
+ 
+ </td>
+ 
+ 
+ 
+  
+ <td class="vt id col_0"><a href="/p/tinypy/wiki/tp_obj">
+ 
+ tp_obj
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_1" width="100%"
+ onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_obj')"
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_obj">
+ 
+ 
+ 
+
+</a>
+ 
+
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_2" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_obj')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_obj" style="white-space:nowrap">
+ 
+ Feb 2010
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_3" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_obj')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_obj">
+ 
+ allef...@gmail.com
+ 
+
+</a></td>
+ 
+ 
+ 
+ <td>&nbsp;</td>
+ </tr>
+ 
+ 
+
+
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" class="ifOpened">
+ <td class="vt" nowrap="nowrap" style="padding:2px 2px 0 2px">
+ 
+ </td>
+ 
+ 
+ 
+  
+ <td class="vt id col_0"><a href="/p/tinypy/wiki/tp_object">
+ 
+ tp_object
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_1" width="100%"
+ onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_object')"
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_object">
+ 
+ 
+ 
+
+</a>
+ 
+
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_2" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_object')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_object" style="white-space:nowrap">
+ 
+ Feb 2010
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_3" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_object')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_object">
+ 
+ allef...@gmail.com
+ 
+
+</a></td>
+ 
+ 
+ 
+ <td>&nbsp;</td>
+ </tr>
+ 
+ 
+
+
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" class="ifOpened">
+ <td class="vt" nowrap="nowrap" style="padding:2px 2px 0 2px">
+ 
+ </td>
+ 
+ 
+ 
+  
+ <td class="vt id col_0"><a href="/p/tinypy/wiki/tp_params">
+ 
+ tp_params
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_1" width="100%"
+ onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_params')"
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_params">
+ 
+ 
+ 
+
+</a>
+ 
+
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_2" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_params')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_params" style="white-space:nowrap">
+ 
+ Feb 2010
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_3" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_params')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_params">
+ 
+ allef...@gmail.com
+ 
+
+</a></td>
+ 
+ 
+ 
+ <td>&nbsp;</td>
+ </tr>
+ 
+ 
+
+
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" class="ifOpened">
+ <td class="vt" nowrap="nowrap" style="padding:2px 2px 0 2px">
+ 
+ </td>
+ 
+ 
+ 
+  
+ <td class="vt id col_0"><a href="/p/tinypy/wiki/tp_params_n">
+ 
+ tp_params_n
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_1" width="100%"
+ onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_params_n')"
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_params_n">
+ 
+ 
+ 
+
+</a>
+ 
+
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_2" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_params_n')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_params_n" style="white-space:nowrap">
+ 
+ Feb 2010
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_3" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_params_n')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_params_n">
+ 
+ allef...@gmail.com
+ 
+
+</a></td>
+ 
+ 
+ 
+ <td>&nbsp;</td>
+ </tr>
+ 
+ 
+
+
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" class="ifOpened">
+ <td class="vt" nowrap="nowrap" style="padding:2px 2px 0 2px">
+ 
+ </td>
+ 
+ 
+ 
+  
+ <td class="vt id col_0"><a href="/p/tinypy/wiki/tp_params_v">
+ 
+ tp_params_v
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_1" width="100%"
+ onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_params_v')"
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_params_v">
+ 
+ 
+ 
+
+</a>
+ 
+
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_2" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_params_v')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_params_v" style="white-space:nowrap">
+ 
+ Feb 2010
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_3" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_params_v')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_params_v">
+ 
+ allef...@gmail.com
+ 
+
+</a></td>
+ 
+ 
+ 
+ <td>&nbsp;</td>
+ </tr>
+ 
+ 
+
+
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" class="ifOpened">
+ <td class="vt" nowrap="nowrap" style="padding:2px 2px 0 2px">
+ 
+ </td>
+ 
+ 
+ 
+  
+ <td class="vt id col_0"><a href="/p/tinypy/wiki/tp_raise">
+ 
+ tp_raise
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_1" width="100%"
+ onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_raise')"
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_raise">
+ 
+ 
+ 
+
+</a>
+ 
+
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_2" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_raise')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_raise" style="white-space:nowrap">
+ 
+ Feb 2010
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_3" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_raise')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_raise">
+ 
+ allef...@gmail.com
+ 
+
+</a></td>
+ 
+ 
+ 
+ <td>&nbsp;</td>
+ </tr>
+ 
+ 
+
+
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" class="ifOpened">
+ <td class="vt" nowrap="nowrap" style="padding:2px 2px 0 2px">
+ 
+ </td>
+ 
+ 
+ 
+  
+ <td class="vt id col_0"><a href="/p/tinypy/wiki/tp_set">
+ 
+ tp_set
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_1" width="100%"
+ onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_set')"
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_set">
+ 
+ 
+ 
+
+</a>
+ 
+
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_2" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_set')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_set" style="white-space:nowrap">
+ 
+ Feb 2010
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_3" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_set')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_set">
+ 
+ allef...@gmail.com
+ 
+
+</a></td>
+ 
+ 
+ 
+ <td>&nbsp;</td>
+ </tr>
+ 
+ 
+
+
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" class="ifOpened">
+ <td class="vt" nowrap="nowrap" style="padding:2px 2px 0 2px">
+ 
+ </td>
+ 
+ 
+ 
+  
+ <td class="vt id col_0"><a href="/p/tinypy/wiki/tp_setmeta">
+ 
+ tp_setmeta
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_1" width="100%"
+ onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_setmeta')"
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_setmeta">
+ 
+ 
+ 
+
+</a>
+ 
+
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_2" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_setmeta')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_setmeta" style="white-space:nowrap">
+ 
+ Feb 2010
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_3" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_setmeta')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_setmeta">
+ 
+ allef...@gmail.com
+ 
+
+</a></td>
+ 
+ 
+ 
+ <td>&nbsp;</td>
+ </tr>
+ 
+ 
+
+
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" class="ifOpened">
+ <td class="vt" nowrap="nowrap" style="padding:2px 2px 0 2px">
+ 
+ </td>
+ 
+ 
+ 
+  
+ <td class="vt id col_0"><a href="/p/tinypy/wiki/tp_str">
+ 
+ tp_str
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_1" width="100%"
+ onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_str')"
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_str">
+ 
+ 
+ 
+
+</a>
+ 
+
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_2" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_str')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_str" style="white-space:nowrap">
+ 
+ Feb 2010
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_3" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_str')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_str">
+ 
+ allef...@gmail.com
+ 
+
+</a></td>
+ 
+ 
+ 
+ <td>&nbsp;</td>
+ </tr>
+ 
+ 
+
+
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" class="ifOpened">
+ <td class="vt" nowrap="nowrap" style="padding:2px 2px 0 2px">
+ 
+ </td>
+ 
+ 
+ 
+  
+ <td class="vt id col_0"><a href="/p/tinypy/wiki/tp_string">
+ 
+ tp_string
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_1" width="100%"
+ onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_string')"
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_string">
+ 
+ 
+ 
+
+</a>
+ 
+
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_2" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_string')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_string" style="white-space:nowrap">
+ 
+ Feb 2010
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_3" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_string')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_string">
+ 
+ allef...@gmail.com
+ 
+
+</a></td>
+ 
+ 
+ 
+ <td>&nbsp;</td>
+ </tr>
+ 
+ 
+
+
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" class="ifOpened">
+ <td class="vt" nowrap="nowrap" style="padding:2px 2px 0 2px">
+ 
+ </td>
+ 
+ 
+ 
+  
+ <td class="vt id col_0"><a href="/p/tinypy/wiki/tp_string_n">
+ 
+ tp_string_n
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_1" width="100%"
+ onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_string_n')"
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_string_n">
+ 
+ 
+ 
+
+</a>
+ 
+
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_2" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_string_n')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_string_n" style="white-space:nowrap">
+ 
+ Feb 2010
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_3" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_string_n')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_string_n">
+ 
+ allef...@gmail.com
+ 
+
+</a></td>
+ 
+ 
+ 
+ <td>&nbsp;</td>
+ </tr>
+ 
+ 
+
+
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" class="ifOpened">
+ <td class="vt" nowrap="nowrap" style="padding:2px 2px 0 2px">
+ 
+ </td>
+ 
+ 
+ 
+  
+ <td class="vt id col_0"><a href="/p/tinypy/wiki/tp_string_slice">
+ 
+ tp_string_slice
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_1" width="100%"
+ onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_string_slice')"
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_string_slice">
+ 
+ 
+ 
+
+</a>
+ 
+
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_2" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_string_slice')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_string_slice" style="white-space:nowrap">
+ 
+ Feb 2010
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_3" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_string_slice')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_string_slice">
+ 
+ allef...@gmail.com
+ 
+
+</a></td>
+ 
+ 
+ 
+ <td>&nbsp;</td>
+ </tr>
+ 
+ 
+
+
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" class="ifOpened">
+ <td class="vt" nowrap="nowrap" style="padding:2px 2px 0 2px">
+ 
+ </td>
+ 
+ 
+ 
+  
+ <td class="vt id col_0"><a href="/p/tinypy/wiki/tp_system">
+ 
+ tp_system
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_1" width="100%"
+ onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_system')"
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_system">
+ 
+ 
+ 
+
+</a>
+ 
+
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_2" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_system')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_system" style="white-space:nowrap">
+ 
+ Feb 2010
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_3" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_system')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_system">
+ 
+ allef...@gmail.com
+ 
+
+</a></td>
+ 
+ 
+ 
+ <td>&nbsp;</td>
+ </tr>
+ 
+ 
+
+
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" class="ifOpened">
+ <td class="vt" nowrap="nowrap" style="padding:2px 2px 0 2px">
+ 
+ </td>
+ 
+ 
+ 
+  
+ <td class="vt id col_0"><a href="/p/tinypy/wiki/tp_vm">
+ 
+ tp_vm
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_1" width="100%"
+ onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_vm')"
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_vm">
+ 
+ 
+ 
+
+</a>
+ 
+
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_2" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_vm')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_vm" style="white-space:nowrap">
+ 
+ Feb 2010
+ 
+
+</a></td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="vt col_3" onclick="if (!cancelBubble) _go('/p/tinypy/wiki/tp_vm')"
+ 
+ ><a onclick="cancelBubble=true" href="/p/tinypy/wiki/tp_vm">
+ 
+ allef...@gmail.com
+ 
+
+</a></td>
+ 
+ 
+ 
+ <td>&nbsp;</td>
+ </tr>
+ 
+ 
+ </table>
+ <div class="list-foot">
+ 
+ 
+ <div class="pagination">
+ 
+ 1 - 43
+ 
+ of 43
+ 
+ 
+ </div>
+ 
+
+
+ </div>
+ &nbsp;&nbsp;
+ <div style="margin-top: 1px; font-size: small">
+ 
+ 
+ </div>
+
+ 
+ <div id="pop_0" class="popup">
+ <table cellspacing="0" cellpadding="0" border="0">
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this)" onclick="_closeAllPopups(this);_sortUp('pagename')"><td>Sort Up</td></tr>
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this)" onclick="_closeAllPopups(this);_sortDown('pagename')"><td>Sort Down</td></tr>
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this)" onclick="_closeAllPopups(this);_toggleColumn('hide_col_0')"><td>Hide Column</td></tr>
+ </table>
+ </div>
+ 
+
+ 
+ 
+ <div id="pop_1" class="popup">
+ <table cellspacing="0" cellpadding="0" border="0">
+ <tr onmouseover="_rowRolloverOn(this);_closeSubmenus()" onmouseout="_rowRolloverOff(this)" onclick="_closeAllPopups(this);_sortUp('summary')"><td>Sort Up</td></tr>
+ <tr onmouseover="_rowRolloverOn(this);_closeSubmenus()" onmouseout="_rowRolloverOff(this)" onclick="_closeAllPopups(this);_sortDown('summary')"><td>Sort Down</td></tr>
+ 
+ <tr onmouseover="_rowRolloverOn(this);_closeSubmenus()" onmouseout="_rowRolloverOff(this)" onclick="_closeAllPopups(this);_toggleColumn('hide_col_1')"><td>Hide Column</td></tr>
+ </table>
+ </div>
+ 
+ 
+
+ 
+ 
+ <div id="pop_2" class="popup">
+ <table cellspacing="0" cellpadding="0" border="0">
+ <tr onmouseover="_rowRolloverOn(this);_closeSubmenus()" onmouseout="_rowRolloverOff(this)" onclick="_closeAllPopups(this);_sortUp('changed')"><td>Sort Up</td></tr>
+ <tr onmouseover="_rowRolloverOn(this);_closeSubmenus()" onmouseout="_rowRolloverOff(this)" onclick="_closeAllPopups(this);_sortDown('changed')"><td>Sort Down</td></tr>
+ 
+ <tr onmouseover="_rowRolloverOn(this);_closeSubmenus()" onmouseout="_rowRolloverOff(this)" onclick="_closeAllPopups(this);_toggleColumn('hide_col_2')"><td>Hide Column</td></tr>
+ <tr onmouseover="_rowRolloverOn(this);_closeSubmenus()" onmouseout="_rowRolloverOff(this)"
+ onclick="_closeAllPopups(this);_addGroupBy(2)"
+ id="pop_groupby_2"
+ ><td>Group Rows</td></tr>
+ </table>
+ </div>
+ 
+ 
+
+ 
+ 
+ <div id="pop_3" class="popup">
+ <table cellspacing="0" cellpadding="0" border="0">
+ <tr onmouseover="_rowRolloverOn(this);_closeSubmenus()" onmouseout="_rowRolloverOff(this)" onclick="_closeAllPopups(this);_sortUp('changedby')"><td>Sort Up</td></tr>
+ <tr onmouseover="_rowRolloverOn(this);_closeSubmenus()" onmouseout="_rowRolloverOff(this)" onclick="_closeAllPopups(this);_sortDown('changedby')"><td>Sort Down</td></tr>
+ 
+ <tr onmouseover="_rowRolloverOn(this);_closeSubmenus()" onmouseout="_rowRolloverOff(this)" onclick="_closeAllPopups(this);_toggleColumn('hide_col_3')"><td>Hide Column</td></tr>
+ <tr onmouseover="_rowRolloverOn(this);_closeSubmenus()" onmouseout="_rowRolloverOff(this)"
+ onclick="_closeAllPopups(this);_addGroupBy(3)"
+ id="pop_groupby_3"
+ ><td>Group Rows</td></tr>
+ </table>
+ </div>
+ 
+ 
+
+
+ <div id="filter_0" class="popup subpopup">
+ <table cellspacing="0" cellpadding="0" border="0">
+ 
+ </table>
+ </div>
+
+ <div id="filter_1" class="popup subpopup">
+ <table cellspacing="0" cellpadding="0" border="0">
+ 
+ </table>
+ </div>
+
+ <div id="filter_2" class="popup subpopup">
+ <table cellspacing="0" cellpadding="0" border="0">
+ 
+ </table>
+ </div>
+
+ <div id="filter_3" class="popup subpopup">
+ <table cellspacing="0" cellpadding="0" border="0">
+ 
+ </table>
+ </div>
+
+ <div id="pop__dot" class="popup">
+ <table cellspacing="0" cellpadding="0" border="0">
+ <tr><th>Show columns:</th></tr>
+ 
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this)" onclick="_closeAllPopups(this);_toggleColumn('hide_col_0')"><td>&nbsp;<span class="col_0">&diams;</span>&nbsp;PageName</td></tr>
+ 
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this)" onclick="_closeAllPopups(this);_toggleColumn('hide_col_1')"><td>&nbsp;<span class="col_1">&diams;</span>&nbsp;Summary</td></tr>
+ 
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this)" onclick="_closeAllPopups(this);_toggleColumn('hide_col_2')"><td>&nbsp;<span class="col_2">&diams;</span>&nbsp;Changed</td></tr>
+ 
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this)" onclick="_closeAllPopups(this);_toggleColumn('hide_col_3')"><td>&nbsp;<span class="col_3">&diams;</span>&nbsp;ChangedBy</td></tr>
+ 
+ 
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this)" onclick="_closeAllPopups(this);_addcol('RevNum')"><td>&nbsp;&nbsp;&nbsp;&nbsp;RevNum</td></tr>
+ 
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this)" onclick="_closeAllPopups(this);_addcol('Stars')"><td>&nbsp;&nbsp;&nbsp;&nbsp;Stars</td></tr>
+ 
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this)" onclick="_closeAllPopups(this); document.getElementById('columnspec').style.display=''; return true;"><td>&nbsp;&nbsp;&nbsp;&nbsp;Edit&nbsp;column&nbsp;spec...</td></tr>
+ </table>
+</div>
+</div>
+<script type="text/javascript" src="https://ssl.gstatic.com/codesite/ph/3374407039186159233/js/dit_scripts.js"></script>
+
+<script type="text/javascript">
+ var cancelBubble = false;
+ var _allColumnNames = [
+ 'pagename', 'summary', 'changed', 'changedby'
+ ];
+ _ctxCan = 2;
+ _ctxQuery = "";
+ _ctxSortspec = "";
+ _ctxGroupBy = "";
+ _ctxDefaultColspec = "PageName Summary Changed ChangedBy";
+ _ctxStart = 0;
+ _ctxNum = 100;
+ _ctxResultsPerPage = 100;
+ _ctxArgs = _formatContextQueryArgs();
+ 
+</script>
+ 
+ 
+ 
+ <script type="text/javascript" src="https://ssl.gstatic.com/codesite/ph/3374407039186159233/js/ph_core.js"></script>
+ 
+ 
+ 
+ 
+</div> 
+
+<div id="footer" dir="ltr">
+ <div class="text">
+ <a href="/projecthosting/terms.html">Terms</a> -
+ <a href="http://www.google.com/privacy.html">Privacy</a> -
+ <a href="/p/support/">Project Hosting Help</a>
+ </div>
+</div>
+ <div class="hostedBy" style="margin-top: -20px;">
+ <span style="vertical-align: top;">Powered by <a href="http://code.google.com/projecthosting/">Google Project Hosting</a></span>
+ </div>
+
+ 
+ 
+
+
+ 
+ 
+ <script type="text/javascript">_CS_reportToCsi();</script>
+ 
+ </body>
+</html>
+
